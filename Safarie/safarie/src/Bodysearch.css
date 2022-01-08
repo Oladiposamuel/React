@@ -1,0 +1,54 @@
+.body__right__one {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding-top: 18px;
+    background-color: #f1f7fa;
+    top: 58px;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.body__right__search {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 65%;
+    height: 50px;
+    outline: none !important;
+    border-color: 1px solid #f1f7fa;
+    border-radius: 20px;
+    border: none;
+}
+
+.market__place {
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 15%;
+    border-radius: 20px;
+    border: none;
+    background-color: #daeef8;
+    color: #838b8d;
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+    height: 50px;
+}
+
+.auction {
+    margin-right: 42px;
+    margin-top: 0px;
+    width: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color: #f1f7fa;;
+    border: 1px solid #c1c4c5;
+    color: #838b8d;
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+    height: 50px;
+}

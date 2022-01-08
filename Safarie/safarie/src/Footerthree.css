@@ -1,0 +1,22 @@
+.footer__copyright {
+    width: 30%;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.copyright {
+    color: white;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+
+.footer__three {
+    width: 100%;
+    height: 45px;
+    background-color: #94a1a5;
+    padding-top: 15px;
+    position: relative;
+    z-index: 1;
+}

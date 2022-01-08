@@ -1,0 +1,122 @@
+.header {
+    background-color: white;
+    display: flex;
+    height: max-content;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.header__left {
+    width: 20%;
+    display: flex;
+}
+
+.header__left__help {
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #a6c0c9;
+    font-size: smaller;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header__left__ngn {
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #ced7da;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.dropdown {
+    margin-top: 15px;
+    color: #585151;
+    cursor: pointer;
+}
+
+.flag__img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: #e1eef7;
+}
+
+.flag {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header__logo {
+    width: 60%;
+    display: flex;
+}
+
+.header__right {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.header__button {
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #9EA1A3;
+    display: flex;
+    outline: none;
+}
+
+.header__signin {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.header__person {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header__cart {
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.header__heart {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.logo__div {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.logo {
+    max-height: 30px;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    justify-content: center;    
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.item__image {
+    border-radius: 10px;
+    width: 5% !important;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text {
+    margin-top: 3px;
+    color: #535657;
+    font-weight: 600;
+    font-size: small;
+}
+
+.item__price {
+    color: #1f32e0;
+    font-weight: 600;
+    font-size: large;
+    
+}
+

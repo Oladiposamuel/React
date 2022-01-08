@@ -1,0 +1,142 @@
+.sidebar {
+    position: fixed;
+}
+
+.bigbody__left__content {
+    margin-left: 30px;
+    height: max-content;
+}
+
+.filter__search {
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #daeef8;
+    font-size: small;
+    font-weight: bolder;
+    
+}
+
+.settings {
+    margin-right:6px;
+    margin-top: 0px;
+    cursor: pointer;
+    color: gray;
+}
+
+.bigbody__left__content__one {
+    height: 300px;
+    margin: 0 30px;
+}
+
+.categories {
+    margin-top: 15px;
+    color: #535657;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.sub__categories {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sub__categories__one {
+    width: 30%;
+    height: max-content;
+    margin-right: 5%;
+}
+
+.sub__categories__shoe {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30px;
+    height: max-content;
+    margin-right: 3%;
+    border-radius: 10px;
+    background-color: #dbedf3;
+    cursor: pointer;
+}
+
+.fashion {
+    color: #799da8;
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+.sub__categories__two {
+    width: 30%;
+    height: max-content;
+    margin-right: 5%;
+}
+
+.sub__categories__phone {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30px;
+    height: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #dbedf3;
+    cursor: pointer;
+}
+
+.sub__categories__three {
+    width: 30%;
+    height: max-content;
+    margin-right: 3%;
+}
+
+.sub__categories__sport {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30px;
+    height: max-content;
+    border-radius: 10px;
+    background-color: #dbedf3;
+    cursor: pointer;
+}
+
+
+.arrowleft{
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.filter__content {
+    margin-right: 20px;
+}
+
+
+.price__range {
+    margin-top: 30px;
+    color: #535657;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.price__range__line {
+    height: 3px;
+    width: 100%;
+}
+
+.price {
+    margin-left: 130px;
+    font-weight: lighter;
+    color: #35464b;
+}
+
+.straight__line {
+    border: 1px solid #f1f7fa;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
