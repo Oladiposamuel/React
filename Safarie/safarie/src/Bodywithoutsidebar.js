@@ -3,7 +3,6 @@ import './Bodywithoutsidebar.css';
 import Footertwo from "./Footertwo";
 import { Link } from 'react-router-dom';
 import Item from './Item';
-import Nosidebar from './Nosidebar';
 import { BsFillLightningFill } from 'react-icons/bs';
 import { MdSecurity } from 'react-icons/md';
 import { FaRegThumbsUp } from 'react-icons/fa';
@@ -13,9 +12,22 @@ import { RiVisaLine } from 'react-icons/ri';
 import { BsPaypal } from'react-icons/bs';
 import Footerthree from "./Footerthree";
 import Bodysearch from "./Bodysearch";
+import { GoSettings } from "react-icons/go";
+import Footerone from "./Footerone";
 
 
 function Bodywithoutsidebar() {
+
+    const Nosidebar = () => {
+        return(
+          <div className="sidebar">
+          <div className="bigbody__left__content">
+             <button  type="button" className="filter__search"> <Link to="/"><GoSettings size="1.2rem" className="settings"/></Link> </button>
+           </div>
+          </div>
+    
+        );
+      }
 
   return (
     <div className="body">
@@ -243,69 +255,8 @@ function Bodywithoutsidebar() {
         
         
 
+        <Footerone />
         
-        <div className="footer__one">
-            <div className="sub__footer__one">
-
-                <div className="footer__quick">
-                   <div className="icon"><BsFillLightningFill color="#1434A4" size="2rem"/></div> 
-                   <div className="icon__text">
-                       <span className="icon__header">
-                            Quick Delivery
-                       </span>
-                       <span className="icon__lorem">
-                            The boy is going to school and he saw his friend going to school. Then they went together.
-                       </span>
-                   </div>
-                   
-                </div>
-
-                <div className="footer__secure">
-                    <div className="icon"><MdSecurity color="#1434A4" size="2rem"/></div> 
-                   <div className="icon__text">
-                       <span className="icon__header">
-                            Secure Payment
-                       </span>
-                       <span className="icon__lorem">
-                            The boy is going to school and he saw his friend going to school. Then they went together.
-                       </span>
-                   </div>
-                </div>
-
-                <div className="footer__best">
-                    <div className="icon"><FaRegThumbsUp color="#1434A4" size="2rem"/></div> 
-                   <div className="icon__text">
-                       <span className="icon__header">
-                            Best Quality
-                       </span>
-                       <span className="icon__lorem">
-                            The boy is going to school and he saw his friend going to school. Then they went together.
-                       </span>
-                   </div>
-                </div>
-
-                <div className="footer__return">
-                    <div className="icon"><FaStar color="#1434A4" size="2rem"/></div> 
-                   <div className="icon__text">
-                       <span className="icon__header">
-                            Return Guarantee
-                       </span>
-                       <span className="icon__lorem">
-                            The boy is going to school and he saw his friend going to school. Then they went together.
-                       </span>
-                   </div>
-                </div>
-
-            </div>
-
-            <div className="atm__cards">
-                <span> <FaCcMastercard color="#1434A4" size="2rem" className="master__card" /> </span>
-                <span> <RiVisaLine color="#1434A4" size="2rem" /> </span>
-                <span> <BsPaypal color="#1434A4" size="2rem" /> </span>
-                <span> <FaCcMastercard color="#1434A4" size="2rem" /> </span>
-            </div>
-        </div>
-
         <Footertwo />
 
         <Footerthree />

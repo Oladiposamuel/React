@@ -6,6 +6,7 @@ import Bodywithsidebar from './Bodywithsidebar';
 import Bodywithoutsidebar from './Bodywithoutsidebar';
 import Bodyandsignin from "./Bodyandsignin";
 import Electronics from "./Electronics";
+import Electandsidebar from "./Electandsidebar";
 
 
 
@@ -34,6 +35,10 @@ function App() {
 
           <Route path="/Electronics">
             <Electronics />
+          </Route>
+
+          <Route path="/Electandsidebar">
+            <Electandsidebar />
           </Route>
         </Switch>
 
