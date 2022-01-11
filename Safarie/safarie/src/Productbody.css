@@ -1,0 +1,71 @@
+.productbody {
+    width: 91.5%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.sub__productbody__body {
+    background-color: #f1f7fa;
+    min-height: 100vh;
+    height: max-content;
+}
+
+.sub__productbody__body__content {
+    margin: 0 auto;
+    width: 94%;
+}
+
+.sub__productbody__one {
+    border: 1px solid black;
+    height: max-content;
+    display: flex;
+    margin-top: 50px;
+}
+
+.productbody__one__img {
+    border: 1px solid black;
+    height: max-content;
+    width: 30%;
+}
+
+.productbody__one__text {
+    height: max-content;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productbody__one__text1 {
+    border: 1px solid black;
+    height: max-content;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    color: #57636F;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.electronics__label{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.home__label {
+    color: #a6c0c9;
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+.elect__label {
+    color: #a6c0c9;
+    font-size: smaller;
+    margin-right: 20px;
+    margin-left: 5px;
+}

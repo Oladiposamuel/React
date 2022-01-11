@@ -1,6 +1,7 @@
 import React from "react";
 import './Electbody.css';
 import products from "./Products";
+import { Link } from 'react-router-dom';
 import { IoMdArrowDropright } from 'react-icons/io';
 import Bodysearch from "./Bodysearch";
 
@@ -21,10 +22,12 @@ function Electbody() {
                  const {id, image, title, rating, price} = product;
                  return (
                     <div key={id} className="product">
-                      <img src={image} alt={title} className="product__image"/>
-                      <p className="text">{title}</p>
+                      <Link to ="/Electproduct"><img src={image} alt={title} className="product__image"/></Link> 
+                      <div className="display">
+                      <span className="text">{title}</span>
                       <span>{rating}</span>
                       <span className="item__price">{price}</span>
+                      </div>
                     </div>
                  );
                })}

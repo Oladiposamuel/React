@@ -1,9 +1,11 @@
+import Rating from "./Rating";
+
 const products = [
     {
         id: 1,
-        image: 'https://cdn.shopify.com/s/files/1/0411/2465/9349/products/1_b99afee7-fd82-4c4e-89ea-82ef57c4261a.jpg?v=1602664896',
+        image: 'https://i.ibb.co/TTBCCzm/1-3x.png',
         title: 'Oraimo head phones',
-        rating: '',
+        rating: <Rating />,
         price: '9,000',
     },
 

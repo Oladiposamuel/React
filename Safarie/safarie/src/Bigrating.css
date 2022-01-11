@@ -1,0 +1,13 @@
+.bigrating {
+    display: flex;
+}
+
+.rating__img {
+    margin-top: 7px;
+}
+
+.bigcolor {
+    color: #878786;
+    font-size: large;
+    margin-left: 7px;
+}

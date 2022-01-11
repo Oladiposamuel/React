@@ -56,7 +56,7 @@
     display: flex;
     flex-wrap: wrap;
     overflow-x: hidden;
-    
+    margin-top: 30px;
 }
 
 .product {
@@ -67,11 +67,25 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 170px;
-    height: 150px;
+    width: 157px;
+    height: 211px;
     border-radius: 10px;
     margin-right: 20px;
     margin-bottom: 0px;
 }
+
+.text {
+    color: #535657;
+    font-weight: 600;
+    font-size: small;
+}
+
+.item__price {
+    color: #1f32e0;
+    font-weight: 600;
+    font-size: large;
+    
+}
+
 
 

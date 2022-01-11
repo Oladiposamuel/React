@@ -7,6 +7,8 @@ import Bodywithoutsidebar from './Bodywithoutsidebar';
 import Bodyandsignin from "./Bodyandsignin";
 import Electronics from "./Electronics";
 import Electandsidebar from "./Electandsidebar";
+import Electproduct from "./Electproduct";
+import Electproductsidebar from './Electproductsidebar';
 
 
 
@@ -39,6 +41,14 @@ function App() {
 
           <Route path="/Electandsidebar">
             <Electandsidebar />
+          </Route>
+
+          <Route path="/Electproduct">
+            <Electproduct />
+          </Route>
+
+          <Route path="/Electproductsidebar">
+            <Electproductsidebar />
           </Route>
         </Switch>
 

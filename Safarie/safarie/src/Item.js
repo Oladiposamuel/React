@@ -1,5 +1,6 @@
 import React from "react";
 import './Item.css';
+import Rating from "./Rating";
 
   
 function Item( {image, title, rating, price} ) {
@@ -21,10 +22,14 @@ function Item( {image, title, rating, price} ) {
                 marginBottom: 0,
               }}
 
-              />  
-              <p className="text">{title}</p>
-              <span>{rating}</span>
+              /> 
+              <div className="display">
+
+              <span className="text">{title}</span>
+              <span><Rating /> </span>
               <span className="item__price">{price}</span>
+
+              </div> 
 
           </div>
       </div>

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import './Electandsidebar.css';
+import React from "react";
+import './Electproductsidebar.css';
 import { Link } from 'react-router-dom';
 import products from "./Products";
 import Header from "./Header";
@@ -18,16 +18,14 @@ import { FaBaby } from 'react-icons/fa';
 import { GiSofa } from 'react-icons/gi';
 import {FcElectronics} from 'react-icons/fc';
 
-
-function Electandsidebar() {
-
+function Electproductsidebar() {
 
     const Sidebar = () => {
         return(
             <div className="sidebar">
          
             <div className="bigbody__left__content">
-                   <button type="button" className="filter__search"> <GoSettings  size="1.2rem" className="settings"/><span className="filter__content">FILTER SEARCH </span >  <Link style={{textDecoration: 'none',}} to="/Electronics"><AiOutlineLeft className="arrowleft" /></Link> </button>
+                   <button type="button" className="filter__search"> <GoSettings  size="1.2rem" className="settings"/><span className="filter__content">FILTER SEARCH </span >  <Link style={{textDecoration: 'none',}} to="/Electproduct"><AiOutlineLeft className="arrowleft" /></Link> </button>
     
                    <div >
                        <div className="price__range">Price Range</div>
@@ -90,9 +88,8 @@ function Electandsidebar() {
 
 
     return (
-      
-    <div className="electronics">
-        <Header />
+      <div className="electproductsidebar">
+          <Header />
          <Sidebar />
         <div className="electandsidebar__body">
             <Bodysearch />
@@ -110,11 +107,9 @@ function Electandsidebar() {
                      return (
                         <div key={id} className="product">
                           <img src={image} alt={title} className="product__image"/>
-                            <div className="display">
-                                <span className="text">{title}</span>
-                                <span>{rating}</span>
-                                <span className="item__price">{price}</span>
-                            </div>
+                          <p className="text">{title}</p>
+                          <span>{rating}</span>
+                          <span className="item__price">{price}</span>
                         </div>
                      );
                    })}
@@ -126,9 +121,10 @@ function Electandsidebar() {
         <Footerone />
           <Footertwo />
           <Footerthree />
-    </div>
+
+      </div>
 
     );
   }
   
-  export default Electandsidebar;
+  export default Electproductsidebar;
