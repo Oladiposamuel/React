@@ -17,6 +17,7 @@ import { MdOutlineHealthAndSafety } from 'react-icons/md';
 import { FaBaby } from 'react-icons/fa';
 import { GiSofa } from 'react-icons/gi';
 import {FcElectronics} from 'react-icons/fc';
+import Productbody from "./Productbody";
 
 function Electproductsidebar() {
 
@@ -90,34 +91,11 @@ function Electproductsidebar() {
     return (
       <div className="electproductsidebar">
           <Header />
-         <Sidebar />
-        <div className="electandsidebar__body">
-            <Bodysearch />
-            <div className="sub__electronics__body">
-              <div className="sub__electronics__body__content">
-                <div className="electronics__label">
-                  <div className="home__label">Home</div> <span> <IoMdArrowDropright style={{marginTop: '0px'}} color="#a6c0c9" size="1rem" />  </span>  <div className="elect__label">Electronics</div>
-                </div>
-                <div className="electronics__biglabel">
-                  Electronics
-                </div>
-                <div className="electronics__products">
-                   {products.map((product) => {
-                     const {id, image, title, rating, price} = product;
-                     return (
-                        <div key={id} className="product">
-                          <img src={image} alt={title} className="product__image"/>
-                          <p className="text">{title}</p>
-                          <span>{rating}</span>
-                          <span className="item__price">{price}</span>
-                        </div>
-                     );
-                   })}
-                </div>
-              </div>
-            </div>
+          <Sidebar />
+        <div className="electproductsidebar__body">
+            <Productbody />
         </div>
-
+            
         <Footerone />
           <Footertwo />
           <Footerthree />

@@ -1,0 +1,157 @@
+.cartbody {
+    width: 91.5%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.sub__cartbody__body {
+    background-color: #f1f7fa;
+    height: max-content;
+}
+
+.sub__cartbody__body__content {
+    margin: 0 auto;
+    width: 94%;
+}
+
+.cartbody__content2 {
+    border: 1px solid black;
+    height: max-content;
+    margin: 0 auto;
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemsin {
+  margin-left: 5px;
+  color: #57636F;
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 100%;
+}
+
+.summary {
+  margin-right: 240px;
+  color: #57636F;
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 100%;
+}
+
+.cartbody__content3 {
+    height: max-content;
+    margin-top: 30px;
+    margin: 0 auto;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3__one {
+    width: 734.01px;
+    border-radius: 10px;
+    height: 406.4px;
+    background-color: white;
+    opacity: 100%;
+    display: flex;
+}
+
+
+.content3__two {
+    width: 410.01px;
+    border-radius: 10px;
+    height: 406.4px;
+    background-color: white;
+    opacity: 100%;
+}
+
+.content3__one__div {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 90%;
+    height: max-content;
+    display: flex;
+}
+
+.content3__one__div1 {
+    margin-top: 22px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: max-content;
+}
+
+.itemdiv {
+    color: #ACBAC3;
+    opacity: 100%;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.iphonediv {
+    height: max-content;
+    width: max-content;
+}
+
+.iphonediv__img {
+    height: 120px;
+    width: 120px;
+    margin-right: 25px;
+}
+
+.content3__one__div2 {
+    display: flex;
+}
+.iphonetext {
+    color: #57636F;
+    opacity: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.iphoneqty {
+    margin-top: 10px;
+    color: #57636F;
+    display: flex;
+    opacity: 100%;
+}
+
+.span__qty {
+    font-size: small;
+    font-weight: lighter;
+    margin-right: 5px;
+    opacity: 100%;
+}
+
+.content3__one__div3 {
+    height: max-content;
+    width: max-content;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content3__one__div1a {
+    margin-top: 98px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: max-content;
+}
+
+.pricetext {
+    opacity: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    color: #7A8D9C;
+}

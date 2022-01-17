@@ -32,7 +32,7 @@ function Header() {
 
          <div className="header__right">
             <div className="header__heart"><BsFillSuitHeartFill color="#a6a6a6" size="1.2rem" /></div>
-            <div className="header__cart"><FaShoppingCart size="1.3rem" color="#006DB4" /></div>
+            <Link to="/Cart"><div className="header__cart"><FaShoppingCart size="1.3rem" color="#006DB4" /></div></Link>
             <div onClick={() => {Setshowsignin(!showsignin)}} className="header__button">
                <div class="header__person"><BsPerson size="2rem" color="white" /></div>
                <span class="header__signin">Sign In</span>

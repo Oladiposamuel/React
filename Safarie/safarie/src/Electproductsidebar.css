@@ -1,0 +1,9 @@
+.electproductsidebar__body {
+    width: 84%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}

@@ -9,6 +9,7 @@ import Electronics from "./Electronics";
 import Electandsidebar from "./Electandsidebar";
 import Electproduct from "./Electproduct";
 import Electproductsidebar from './Electproductsidebar';
+import Cart from "./Cart";
 
 
 
@@ -49,6 +50,10 @@ function App() {
 
           <Route path="/Electproductsidebar">
             <Electproductsidebar />
+          </Route>
+
+          <Route path="/Cart">
+            <Cart />
           </Route>
         </Switch>
 
